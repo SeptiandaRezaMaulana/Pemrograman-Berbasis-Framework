@@ -1,15 +1,16 @@
-import Header from './Header';
-import Navbar from './Navbar';
-import Footer from './Footer';
+import './App.css';
+import Header from './component/Header';
+import Footer from './component/Footer';
+import Content from './component/Content';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Header />
-      <h2>Hello World Septianda Reza</h2>
-      <Footer />
+      <Header/>
+      <Content/>
+      <Footer/>
     </div>
   );
 }
+
 export default App;
